@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.ListIterator;
 
-public class Arraylist {
+public class ArraylistDemo {
     public void ALE(){
         List<String> list=new ArrayList<String>();
         list.add("AB");
@@ -32,7 +32,7 @@ public class Arraylist {
         }
     }
     public static void main(String[] args) {
-        Arraylist al=new Arraylist();
+        ArraylistDemo al=new ArraylistDemo();
         al.ALE();
     }
 }
